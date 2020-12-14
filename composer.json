@@ -1,0 +1,22 @@
+{
+    "name": "floringavrila/traveltickets",
+    "description": "sorting tickets",
+    "authors": [
+        {
+            "name": "Florin Gavrila",
+            "email": "gavrilacflorin@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gavrila\\TravelTickets\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
